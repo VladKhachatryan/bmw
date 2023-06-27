@@ -6,12 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <!-- cripts -->
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="icon" href="./faveicon.png">
     <title>BMW</title>
 </head>
-<body>
+<body class="bg-dark">
+    <header>
+        <!-- Start navbar -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="./img/icon.png" alt="bmw Logo" width="24" height="24" class="d-inline-block align-text-top">
+                    BMW
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Models
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://www.google.com/search?rlz=1C1GCEA_enAM903AM903&sxsrf=APwXEdccQc3QZNfRoqn5PpanYJu8Txc-TQ:1687856948297&q=bmw+sedans&tbm=isch&sa=X&ved=2ahUKEwjpzdaOjeP_AhUwS_EDHav2B74Q0pQJegQICRAB&biw=1600&bih=789&dpr=1" target="_blank">Sedans</a></li>
+                      <li><a class="dropdown-item" href="https://www.google.com/search?q=bmw+x+series&tbm=isch&ved=2ahUKEwj7gdq4jeP_AhWdyQIHHblqAIsQ2-cCegQIABAA&oq=bmw+x+series&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgQIABAeOgQIIxAnOgcIABATEIAEOggIABAHEB4QEzoHCCMQ6gIQJzoKCAAQigUQsQMQQzoHCAAQigUQQ1D1GljMTmDDVWgBcAB4AIABjQGIAbENkgEEMC4xNJgBAKABAaoBC2d3cy13aXotaW1nsAEBwAEB&sclient=img&ei=jKeaZPuLGp2Ti-gPudWB2Ag&bih=789&biw=1600&rlz=1C1GCEA_enAM903AM903" target="_blank">X series</a></li>
+                      <li><a class="dropdown-item" href="https://www.google.com/search?q=bmw+M+pakiet&tbm=isch&rlz=1C1GCEA_enAM903AM903&hl=ru&sa=X&ved=2ahUKEwiKiojcjeP_AhVQDOwKHX4MBs4QBXoECAEQSQ&biw=1583&bih=789" target="_blank">M packet</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- End navbar -->
+
+        <!-- Start banner -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/banner/1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner/2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner/3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner/4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner/5.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- End banner -->
+
+
+    </header>
     
 </body>
 </html>
