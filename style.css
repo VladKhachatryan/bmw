@@ -1,0 +1,10 @@
+.about_container {
+    background-color: #0000004a;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+#carouselExampleFade{
+    margin-top: 56px;
+}
