@@ -14,7 +14,13 @@
   object-fit: cover;
 }
 
-.card-img-top{
-    max-height: 235px;
-    object-fit: cover;
+.card-img-top {
+  max-height: 235px;
+  object-fit: cover;
+}
+
+.gallery_img,
+.gallery_img > img {
+  object-fit: cover;
+  max-height: 155px;
 }
