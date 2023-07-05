@@ -1,10 +1,20 @@
 .about_container {
-    background-color: #0000004a;
-    padding: 15px;
-    margin: 15px;
-    border-radius: 15px;
+  background-color: #0000004a;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 15px;
 }
 
-#carouselExampleFade{
-    margin-top: 56px;
+#carouselExampleFade {
+  margin-top: 56px;
+}
+
+.carousel-item > img {
+  max-height: 620px;
+  object-fit: cover;
+}
+
+.card-img-top{
+    max-height: 235px;
+    object-fit: cover;
 }
