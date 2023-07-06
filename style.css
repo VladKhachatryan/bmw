@@ -24,3 +24,8 @@
   object-fit: cover;
   max-height: 155px;
 }
+
+#footer {
+  border-radius: 18px;
+  width: 100%;
+}
