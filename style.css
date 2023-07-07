@@ -8,6 +8,13 @@
 #carouselExampleFade {
   margin-top: 56px;
 }
+.carousel-item,
+.carousel-item.active {
+  display: flex;
+  align-items: center;
+  min-height: 300px;
+  background-color: rgba(39, 37, 37, 0.541);
+}
 
 .carousel-item > img {
   max-height: 620px;
@@ -23,9 +30,4 @@
 .gallery_img > img {
   object-fit: cover;
   max-height: 155px;
-}
-
-#footer {
-  border-radius: 18px;
-  width: 100%;
 }
