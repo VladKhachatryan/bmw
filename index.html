@@ -181,7 +181,7 @@
       <!--Start Blog  -->
       <section id="blog">
         <div class="container">
-          <div class="col text-center text-white mt-3 mb-4">
+          <div class="col text-center text-white mt-5 mb-4">
             <h2>Blog</h2>
           </div>
           <div class="row">
@@ -260,7 +260,7 @@
       <section id="about">
         <div class="container">
           <div class="row">
-            <div class="about_container col text-center text-white mt-3 mb-4">
+            <div class="about_container col text-center text-white mt-5 mb-4">
               <h2>About</h2>
               <img
                 src="./img/icon.png"
@@ -302,7 +302,7 @@
       <!-- Start Gallery -->
       <section id="gallery">
         <div class="container">
-          <div class="col text-center text-white mt-3 mb-4">
+          <div class="col text-center text-white mt-5 mb-4">
             <h2>Gallery</h2>
           </div>
           <div class="row text-center">
@@ -722,7 +722,7 @@
       <!-- Start Contact Us -->
       <section id="contactForm">
         <div class="container">
-          <div class="col text-center text-white mt-3 mb-4">
+          <div class="col text-center text-white mt-5 mb-4">
             <h3>Contact Us</h3>
           </div>
           <div class="row">
@@ -740,7 +740,7 @@
               >
             </div>
             <div class="col-md-6 col-12">
-              <form>
+              <form data-bs-theme="dark">
                 <div class="mb-3">
                   <label class="form-label text-white" for="name">Name</label>
                   <input
@@ -748,6 +748,7 @@
                     id="name"
                     type="text"
                     placeholder="Name"
+                    required
                   />
                 </div>
 
@@ -774,12 +775,13 @@
                     type="text"
                     placeholder="Message"
                     style="height: 10rem"
+                    required
                   ></textarea>
                 </div>
 
                 <div class="d-grid">
                   <button class="btn btn-primary btn-lg" type="submit">
-                    Submit
+                    Send
                   </button>
                 </div>
               </form>
@@ -791,7 +793,7 @@
     </main>
 
     <!-- Start Footer -->
-    <footer class="py-3 my-4 bg-light">
+    <footer class="py-3 mt-5 bg-light">
       <div class="container-fluid">
         <div class="container">
           <ul
@@ -846,10 +848,17 @@
               >
             </li>
           </ul>
-          <p class="text-center text-muted">© 2022 Company, Inc</p>
+          <p class="text-center text-muted">
+            © <span id="date">2022</span> Company, Inc
+          </p>
         </div>
       </div>
     </footer>
     <!-- End Footer -->
+
+    <script>
+      let year = new Date();
+      document.getElementById("date").innerHTML = year.getFullYear();
+    </script>
   </body>
 </html>
